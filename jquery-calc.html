@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Calculator Assignment</title>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <p>
+            This component works exactly like the calculator you know. Click any number to start calculating!
+            </p>
+            <div class="calculator">
+                <div class="calculator__display">
+                    <textarea class="#input" value="" rows="2"></textarea>
+                </div>
+
+                <div class="calculator__keys">
+                    <button value="+" id="add" class="key--operator" data-action="add">+</button>
+                    <button value="-" id="subtract" class="key--operator" data-action="subtract">-</button>
+                    <button value="*" id="multiply" class="key--operator" data-action="multiply">&times;</button>
+                    <button value="/" id="divide" class="key--operator" data-action="divide">÷</button>
+                    <button value="7" id="7">7</button>
+                    <button value="8" id="8">8</button>
+                    <button value="9" id="9">9</button>
+                    <button value="" id="backspace" class="key--operator" data-action="back">&#x2190</button>
+                    <button value="4" id="4">4</button>
+                    <button value="5" id="5">5</button>
+                    <button value="6" id="6">6</button>
+                    <button value="1" id="1">1</button>
+                    <button value="2" id="2">2</button>
+                    <button value="3" id="3">3</button>
+                    <button value="0" id="0">0</button>
+                    <button value="." id="dot" data-action="decimal">.</button>
+                    <button value="" id="clear" data-action="clear">C</button>
+                    <button value="=" id="equal" class="key--equal" data-action="calculate">=</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
+<script src="assets/js/jquery-3.6.3.min.js"></script>
+<script src="assets/js/jquery-script.js"></script>
